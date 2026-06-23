@@ -5,7 +5,7 @@ body {
 a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 100;
 }
 
@@ -16,9 +16,25 @@ a {
     align-items: center;
     color: white;
     background-color: #1f2937;
-    padding: 10px 20px;
+    padding: 16px 48px;
 }
 
-.header-links a {
+.header-links {
     margin-left: 15px;
+    display: flex;
+    padding: 0;
+    gap: 24px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    background-color: #1f2937;
+    color: white;
+    text-align: left;
+    padding: 16px 48px;
+    width: 450px;
 }
