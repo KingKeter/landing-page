@@ -142,6 +142,8 @@ a {
 }
 .sign-up-section {
     padding: 64px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .sign-up-section button {
@@ -153,21 +155,33 @@ a {
     cursor: pointer;
     border-radius: 10px;
     width: 125px;
-    margin-top: 8px;
+    margin-right: 48px;
 }
 
 .sign-up {
     background: #3882f6;
-    width: 480px;
+    width: 45%;
     border-radius: 10px;
     box-shadow: 2px 4px 16px rgba(0,0,0,.2);
     display: flex;
+    justify-content: space-between;
     gap: 16px;
-    padding: 16px;
+    padding: 32px;
 }
 
 .button-text {
     display: flex;
     flex-direction: column;
+    color: #ffffff;
+    margin-left: 48px;
+}
+
+.button-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.button-desc {
+    font-size: 14px;
 }
 
